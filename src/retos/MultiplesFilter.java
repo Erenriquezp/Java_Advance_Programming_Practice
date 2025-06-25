@@ -3,7 +3,7 @@ package retos;
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class Reto1 {
+public class MultiplesFilter {
     public static void main(String[] args) {
         try(Scanner scanner = new Scanner(System.in)) {
             int count = readIntRange(scanner, "Cantidad de números a ingresar (entre 1 y 20): ", 1, 20);

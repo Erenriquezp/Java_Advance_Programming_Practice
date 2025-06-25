@@ -1,4 +1,4 @@
-package practice;
+package retos;
 import java.util.*;
 
 public class Buscaminas {
