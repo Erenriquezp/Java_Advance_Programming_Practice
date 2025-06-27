@@ -5,13 +5,14 @@ import java.util.stream.IntStream;
 
 public class AlgorithmReview {
     public static void main(String[] args) {
-        // Busqueda lineal
+        // Búsqueda lineal
 
-        // Busqueda Binaria
+        // Búsqueda Binaria
 
         // Recursividad
+
         int n = 10;
-        long fact = IntStream.rangeClosed(1, n)
+        long factorial = IntStream.rangeClosed(1, n)
                 .asLongStream()
                 .reduce(1L, (a, b) -> a * b);;
 
